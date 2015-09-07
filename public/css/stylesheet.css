@@ -31,7 +31,7 @@ body {
 	height: 120px;
 	background-color: #3c4446;
 }*/
-
+/*
 .homebannertext {
 	text-align:center;
 	padding-top: 35px;
@@ -49,7 +49,7 @@ body {
 }
 #logo:visited {
 	color: white;
-}
+}*/
 
 
 
@@ -79,21 +79,38 @@ body {
 
 /* ------------ Section styles ------------ */
 
-
+.section{
+	position: absolute;
+    top:0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+		display: block;
+		margin: auto;
+}
 
 /* ------ Home ------ */
 
 
 .homesection {
 	text-align:center;
-	margin-top:140px;
+	margin-top:20px;
 }
 
 .node {
-	padding-top: 20px;
-	text-align:center;
-	margin-bottom:120px;
+	text-align:right;
+	position: inherit;
+	width: auto;
+	top:0;
+  right:10;
+	/*margin-bottom:120px;*/
+	/*width: 350px;*/
+	height: 110px;
+	float: right;
+	padding-top: 15px;
+	padding-right: 25px;
 }
+
 .node #chat {
 	font-family: 'Open Sans Condensed';
 	font-weight: normal;
@@ -101,30 +118,36 @@ body {
 }
 
 #nodelogo {
-	width: 410px;
-	height: 110px;
-	margin-bottom: 35px;
+	width: auto;
+	height: 60px;
+	margin-bottom: 10px;
 }
 
 #create {
-	width: 300px;
-	height: 100px;
+	width: 280px;
+	height: 80px;
 	background-color: #70b1d1;
 	text-align:center;
 	display: block;
-	margin:0px auto;
+	margin: auto;
 	border-radius: 3px;
 	box-shadow: 0px 5px 5px #e4e8e7;
 	text-decoration: none;
-	margin-bottom: 70px;
+	/*margin-bottom: 70px;*/
 	color: #eeffff;
+
+	position: absolute;
+    top:0;
+    bottom: 0;
+    left: 0;
+    right: 0;
 }
 #create:visited {
 	color: #eeffff;
 	text-decoration: none;
 }
 #createbutton {
-	padding-top: 28px;
+	padding-top: 18px;
 }
 #little {
 	font-weight: normal;
@@ -151,22 +174,37 @@ body {
 .connected {
 	text-align:center;
 	display: block;
-	margin:0px auto;
-	width: 700px;
-	height: 400px;
+	margin: auto;
+	width: 41%;
+	height: 40%;
 	background-color: #ffffff;
 	border-radius: 3px;
 	box-shadow:0px 3px 3px #e3e4e6;
 	color: #637277;
+
+	position: absolute;
+    top:0;
+    bottom: 0;
+    left: 0;
+    right: 0;
 }
 .connected h2 {
 	padding-top: 20px;
 }
+
 .infoConnected {
 	text-align: left;
 	float: right;
-	margin: 65px 165px 0 0;
+	margin: 30px 150px 0 0;
 }
+
+.infoConnected-1{
+	width: 35%;
+	height: 100%;
+	text-align: left;
+	float: left;
+}
+
 #creatorImage {
 	float: left;
 	margin: 90px 0 0 140px;
@@ -225,13 +263,19 @@ body {
 .personinside {
 	text-align:center;
 	display: block;
-	margin:0px auto;
-	width: 700px;
-	height: 400px;
+	margin: auto;
+	width: 41%;
+	height: 40%;
 	background-color: #ffffff;
 	border-radius: 3px;
 	box-shadow:0px 3px 3px #e3e4e6;
 	color: #637277;
+
+	position: absolute;
+    top:0;
+    bottom: 0;
+    left: 0;
+    right: 0;
 }
 .personinside h2 {
 	padding-top: 20px;
@@ -242,7 +286,7 @@ body {
 .infoInside {
 	text-align: left;
 	float: right;
-	margin: 65px 165px 0 0;
+	margin: 30px 150px 0 0;
 }
 
 #ownerImage {
@@ -302,29 +346,35 @@ body {
 .invite-textfield {
 	text-align:center;
 	display: block;
-	margin:0px auto;
-	width: 750px;
-	height: 300px;
+	margin: auto;
+	width: 55%;
+	height: 35%;
 	background-color: #ffffff;
 	border-radius: 3px;
 	box-shadow:0px 3px 3px #e3e4e6;
 	color: #637277;
+
+	position: absolute;
+    top:0;
+    bottom: 0;
+    left: 0;
+    right: 0;
 }
 .invite-textfield h2 {
-	padding-top: 80px;
+	padding-top: 55px;
 }
 .invite-textfield h5 {
 	 font-weight: normal;
 	 margin: 10px 0 35px;
  }
 .invite-textfield .link {
-	width: 600px;
-	height: 35px;
+	width: 55%;
+	height: 15%;
 	text-align:center;
 	display: block;
-	margin:0px auto;
+	margin: auto auto auto auto;
 	padding-top: 15px;
-	margin-bottom:120px;
+	/*margin-bottom:120px;*/
 	border-radius: 4px;
 	background-color: #f0f1f3;
 }
@@ -337,16 +387,22 @@ body {
 /* ------ Left ------*/
 
 .left {
+
 	text-align:center;
 	display: block;
-	margin:0px auto;
-	width: 750px;
-	height: 300px;
+	margin: auto;
+	width: 45%;
+	height: 34%;
 	background-color: #ffffff;
 	border-radius: 3px;
 	box-shadow:0px 3px 3px #e3e4e6;
 	color: #637277;
-	margin-bottom: 400px;
+
+	position: absolute;
+    top:0;
+    bottom: 0;
+    left: 0;
+    right: 0;
 }
 .left h2 {
 	padding-top: 50px;
@@ -472,7 +528,7 @@ body {
 
 .body {
 	text-align:center;
-	width: 40%;
+	width: 45%;
 	display: block;
 	margin:0px auto 650px;
 	background-color: #ffffff;
@@ -564,13 +620,13 @@ footer {
 	height: 130px;
 }
 #chatform {
-	width:700px;
+	width:45%;
 	margin: 0 auto;
 	background-color: white;
 }
 
 #message {
-	width: 550px;
+	width: 75%;
 	height: 80px;
 	display: block;
 	float:left;
@@ -639,7 +695,7 @@ footer {
 
 .chatscreen{
 	display:none;
-	width:700px;
+	width:70%;
 	margin: 0 auto 200px;
 	overflow:hidden;
 }
