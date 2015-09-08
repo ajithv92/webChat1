@@ -196,11 +196,11 @@ body {
 .infoConnected {
 	text-align: left;
 	float: right;
-	/*margin: 30px 150px 0 0;*/
+	margin: 20px 50px 0 0;
 }
 
 .infoConnected-1{
-	width: 35%;
+	width: 33%;
 	height: 100%;
 	text-align: left;
 	float: left;
@@ -208,7 +208,7 @@ body {
 
 #creatorImage {
 	float: left;
-	margin: 90px 0 0 140px;
+	/*margin: 90px 0 0 140px;*/
 	width: 100px;
 	height: 100px;
 	border-radius: 50%;
