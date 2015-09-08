@@ -19,40 +19,6 @@ body {
 
 
 
-
-/* ------------ Header styles ------------ */
-
-
-
-/* ------ Home ------ */
-
-
-/*.homebanner {
-	height: 120px;
-	background-color: #3c4446;
-}*/
-/*
-.homebannertext {
-	text-align:center;
-	padding-top: 35px;
-	font-family: 'Open Sans Condensed',serif;
-	font-weight: bold;
-	color:white;
-}
-.homebannertext span {
-	color: #d6441b;
-}
-
-#logo {
-	text-decoration: none;
-	color:white;
-}
-#logo:visited {
-	color: white;
-}*/
-
-
-
 /* ------ Invite ------ */
 
 
@@ -73,8 +39,6 @@ body {
 .bannertext span {
 	color: #d6441b;
 }
-
-
 
 
 /* ------------ Section styles ------------ */
@@ -135,34 +99,40 @@ body {
 	text-decoration: none;
 	/*margin-bottom: 70px;*/
 	color: #eeffff;
-
-	position: absolute;
-    top:0;
-    bottom: 0;
-    left: 0;
-    right: 0;
+	position: fixed;
+  top:0;
+  bottom: 0;
+  left: 0;
+  right: 0;
 }
+
 #create:visited {
 	color: #eeffff;
 	text-decoration: none;
 }
+
 #createbutton {
 	padding-top: 18px;
 }
+
 #little {
 	font-weight: normal;
 	font-size: 13px;
 }
+
 #big {
 	font-weight: bold;
 	font-size: 23px;
 }
+
 .tutorial{
 	margin-bottom:90px;
 }
+
 #tutorial {
 	color: #88bfd4;
 }
+
 #tutorial:visited {
 	color: #88bfd4;
 }
@@ -174,20 +144,22 @@ body {
 .connected {
 	text-align:center;
 	display: block;
-	margin: auto;
-	width: 41%;
-	height: 40%;
+	width: 700px;
+	height: 400px;
 	background-color: #ffffff;
 	border-radius: 3px;
 	box-shadow:0px 3px 3px #e3e4e6;
 	color: #637277;
-
-	position: absolute;
-    top:0;
-    bottom: 0;
-    left: 0;
-    right: 0;
+	float: center;
+	vertical-align: middle;
+	position:fixed;
+	top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
 }
+
 .connected h2 {
 	padding-top: 20px;
 }
@@ -195,14 +167,7 @@ body {
 .infoConnected {
 	text-align: left;
 	float: right;
-	margin: 30px 150px 0 0;
-}
-
-.infoConnected-1{
-	width: 35%;
-	height: 100%;
-	text-align: left;
-	float: left;
+	margin: 65px 165px 0 0;
 }
 
 #creatorImage {
@@ -263,20 +228,22 @@ body {
 .personinside {
 	text-align:center;
 	display: block;
-	margin: auto;
-	width: 41%;
-	height: 40%;
+	width: 700px;
+	height: 400px;
 	background-color: #ffffff;
 	border-radius: 3px;
 	box-shadow:0px 3px 3px #e3e4e6;
 	color: #637277;
-
-	position: absolute;
-    top:0;
+	float: center;
+	vertical-align: middle;
+	position:fixed;
+	top: 0;
     bottom: 0;
     left: 0;
     right: 0;
+    margin: auto;
 }
+
 .personinside h2 {
 	padding-top: 20px;
 	width: 210px;
@@ -286,7 +253,7 @@ body {
 .infoInside {
 	text-align: left;
 	float: right;
-	margin: 30px 150px 0 0;
+	margin: 65px 165px 0 0;
 }
 
 #ownerImage {
@@ -346,38 +313,43 @@ body {
 .invite-textfield {
 	text-align:center;
 	display: block;
-	margin: auto;
-	width: 55%;
-	height: 35%;
+	width: 700px;
+	height: 400px;
 	background-color: #ffffff;
 	border-radius: 3px;
 	box-shadow:0px 3px 3px #e3e4e6;
 	color: #637277;
+	float: center;
+	vertical-align: middle;
+	position:fixed;
+	top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
 
-	position: absolute;
-    top:0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-}
 .invite-textfield h2 {
-	padding-top: 55px;
+	padding-top: 80px;
 }
+
 .invite-textfield h5 {
 	 font-weight: normal;
 	 margin: 10px 0 35px;
  }
+
 .invite-textfield .link {
-	width: 55%;
-	height: 15%;
+	width: 600px;
+	height: 35px;
 	text-align:center;
 	display: block;
-	margin: auto auto auto auto;
+	margin:0px auto;
 	padding-top: 15px;
-	/*margin-bottom:120px;*/
+	margin-bottom:120px;
 	border-radius: 4px;
 	background-color: #f0f1f3;
 }
+
 .invite-textfield #link{
 	text-decoration: none;
 	color: #637277;
@@ -387,27 +359,29 @@ body {
 /* ------ Left ------*/
 
 .left {
-
 	text-align:center;
 	display: block;
-	margin: auto;
-	width: 45%;
-	height: 34%;
+	width: 700px;
+	height: 400px;
 	background-color: #ffffff;
 	border-radius: 3px;
 	box-shadow:0px 3px 3px #e3e4e6;
 	color: #637277;
-
-	position: absolute;
-    top:0;
-    bottom: 0;
-    left: 0;
-    right: 0;
+	float: center;
+	vertical-align: middle;
+	position:fixed;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	margin: auto;
 }
+
 .left h2 {
 	padding-top: 50px;
 	padding-bottom: 6px;
 }
+
 .left h5 {
 	font-weight: normal;
 	margin-bottom: 100px;
@@ -431,18 +405,27 @@ body {
 .toomanypeople {
 	text-align:center;
 	display: block;
-	margin:0px auto;
 	width: 750px;
 	height: 300px;
 	background-color: #ffffff;
 	border-radius: 3px;
 	box-shadow:0px 3px 3px #e3e4e6;
 	color: #637277;
+	float: center;
+	vertical-align: middle;
+	position:fixed;
+	top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
 }
+
 .toomanypeople h2 {
 	padding-top: 100px;
 	padding-bottom: 8px;
 }
+
 .toomanypeople h5 {
 	font-weight: normal;
 	margin-bottom: 100px;
@@ -468,12 +451,15 @@ body {
 	box-shadow:0px 3px 3px #e3e4e6;
 	color: #637277;
 	margin-bottom: 400px;
+
 }
+
 .nomessages h2 {
 	padding-top: 50px;
 	overflow: hidden;
 	padding-bottom: 6px;
 }
+
 .nomessages h5 {
 	font-weight: normal;
 	margin-bottom: 100px;
@@ -494,6 +480,7 @@ body {
 	height: 100px;
 	border-radius: 50%;
 }
+
 .info {
 	text-align: left;
 	float: right;
@@ -507,7 +494,6 @@ body {
 
 
 /* ------ Chat Screen ------ */
-
 
 
 .image {
