@@ -78,7 +78,6 @@ module.exports = function(app,io){
 				// Tell the person what he should use for an avatar
 				socket.emit('img', socket.avatar);
 
-
 				// Add the client to the room
 				socket.join(data.id);
 
@@ -127,6 +126,13 @@ module.exports = function(app,io){
 		});
 
 
+//Handling Status
+socket.on("KeyEvents", function (data) {
+        socket.emit("KeyEvents", data);
+        socket.broadcast.to(socket.room).emit("KeyEvents", data);
+    });
+
+
 		// Handle the sending of messages
 		socket.on('msg', function(data){
 
@@ -143,7 +149,7 @@ function findClientsSocket(io,roomId, namespace) {
 	if (ns) {
 		for (var id in ns.connected) {
 			if(roomId) {
-				var index = ns.connected[id].rooms.indexOf(roomId) ;
+				var index = ns.connected[id].rooms.indexOf(roomId);
 				if(index !== -1) {
 					res.push(ns.connected[id]);
 				}
