@@ -129,7 +129,7 @@ $(function(){
 	// Other useful
 
 	socket.on('startChat', function(data){
-		console.log(data);
+		//console.log(data);
 		if(data.boolean && data.id == id) {
 
 			chats.empty();
@@ -176,9 +176,7 @@ $(function(){
 	});
 
 	textarea.keypress(function(e){
-
 		// Submit the form on enter
-
 		if(e.which == 13) {
 			e.preventDefault();
 			chatForm.trigger('submit');
@@ -189,9 +187,7 @@ $(function(){
 	chatForm.on('submit', function(e){
 
 		e.preventDefault();
-
 		// Create a new chat message and display it directly
-
 		showMessage("chatStarted");
 
 		if(textarea.val().trim().length) {
@@ -205,6 +201,22 @@ $(function(){
 		// Empty the textarea
 		textarea.val("");
 	});
+
+
+//Keyboard events on Status
+socket.on("KeyEvents", function (data) {
+    $("#status").html(data.name + " is typing");
+    setTimeout(function () {
+        $("#status").html('');
+    }, 3000);
+});
+
+textarea.on("keyup", function (event) {
+                socket.emit("KeyEvents", {
+                    name: name
+                });
+            });
+
 
 	// Update the relative time stamps on the chat messages every minute
 
