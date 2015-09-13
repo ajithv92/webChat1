@@ -12,9 +12,9 @@ module.exports = function(app, io){
 	app.engine('html', require('ejs').renderFile);
 
 	// Tell express where it can find the templates
-	app.set('views', __dirname + '/views');
+	app.set('views', '../clientNodes/views');
 
 	// Make the files in the public folder available to the world
-	app.use(express.static(__dirname + '/public'));
+	app.use(express.static('../clientNodes/public'));
 
 };
